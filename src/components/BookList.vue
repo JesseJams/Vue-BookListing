@@ -6,11 +6,14 @@
 <script>
 export default {
   name: "BookList",
-  data: function () {
+  data: function data() {
     return { "title": "All Books" };
   }
 };
 </script>
 <style lang="css">
+h1, h2 {
+  font-weight: normal;
+}
   
 </style>
